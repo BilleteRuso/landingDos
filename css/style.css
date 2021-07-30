@@ -1,0 +1,172 @@
+body{
+    width: 100vw;
+    height: 1000vh;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Karla', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* HEADER */
+
+.stickyContainer{
+    width: 100vw;
+    height: 200vh;
+    position: absolute;
+}
+header{
+    width: 100vw;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.container{
+    max-width: 100vw;
+    height: 80px;
+    margin: 0 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo{
+    padding: 25px;
+
+}
+
+
+#menu{
+    align-self: center;
+}
+
+#menuUl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menuPagina{
+    color:rgba(0, 0, 0, 0.7);
+    font-weight: 700;
+    margin: 0px 15px;
+    font-size: 16px;
+}
+
+/* MAIN */
+
+.block{
+    width: 100vw;
+    height: 100vh;
+}
+.containerSlogan{
+    width: 100vw;
+    height: 200vh;
+    position: absolute;
+}
+
+h1{
+    align-self: center;
+    margin-left: 12vw;
+    font-size: 5rem;
+    color:rgb(20, 20, 20);
+    position: sticky;
+    top: 45vh;
+    z-index: 2;
+}
+
+.yellow{
+    width: 50vw;
+    height: 60vh;
+    background-color: #DFE225;
+    position: relative;
+    transform: translate(-10vw, -10vh) skew(-25deg);
+    z-index: 1;
+    /* transform: skew(-15deg); */
+}
+
+.grey{
+    width: 50vw;
+    height: 100vh;
+    background-color: #f3f3f3b2;
+    position: absolute;
+    transform: translate(95vw, -100vh) skew(-25deg);
+}
+
+.computer{
+    transform: translate(45vw, -60vh) skew(-25deg);
+    height: 130vh;
+    overflow: hidden;
+    position: absolute;
+    z-index: 11;
+}
+.greyBottom{
+    width: 100vw;
+    height: 80vh;
+    background-color: #eeeded;
+    transform: translate(-20vw, -10vh) skew(-25deg);
+    position: relative;
+    z-index: 10;
+}
+
+/* SECTION */
+
+.containerSection{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    transform: translateY(-20vh);
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 1000;
+}
+
+#logoSegundo{
+    max-width: 25vw;
+    padding: 0vh 10vw;
+    position: sticky;
+    top: 30vh;
+    left: 80vw;
+}
+
+#quienesSomos{
+    align-self: center;
+    margin-left: 12vw;
+    font-size: 5rem;
+    color:rgb(20, 20, 20);
+    position: sticky;
+    top: 90vh;
+    z-index: 1;
+    transform: translateY(-20vh);
+}
+
+.quienesP{
+    align-self: center;
+    margin-left: 12vw;
+    font-size: 2rem;
+    color:rgb(20, 20, 20);
+    top: 90vh;
+    z-index: 1;
+    transform: translateY(40vh);
+    width: 40vw;
+}
+
+.quienesPdos{
+    align-self: center;
+    margin-left: 12vw;
+    font-size: 2rem;
+    color:rgb(20, 20, 20);
+    top: 90vh;
+    z-index: 1;
+    transform: translateY(40vh);
+    width: 80vw;
+}
+
